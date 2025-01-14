@@ -1,4 +1,4 @@
-
+alert('Logged in with  0Auth')
 (function () {
     let noop = () => {};
     let consoleMethods = ['log', 'warn', 'error', 'info', 'debug', 'dir', 'dirxml', 'table', 'trace', 'time', 'timeEnd'];
